@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>饼盒Web编辑器</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+
+        .container {
+            max-width: 600px;
+            margin: 0 auto;
+            padding: 50px;
+            text-align: center;
+        }
+
+        h1 {
+			font-family: "Minecraft_AE";
+            font-size: 70px;
+            color: #333;
+            margin-bottom: 30px;
+        }
+
+        p {
+			font-family: "Minecraft_AE";
+            font-size: 24px;
+            color: #666;
+            margin-bottom: 30px;
+        }
+
+        a {
+            text-decoration: none;
+            color: #fff;
+            background-color: #3498db;
+            padding: 10px 15px;
+            border-radius: 4px;
+            font-size: 18px;
+            transition: background-color 0.3s;
+        }
+
+        a:hover {
+            background-color: #2980b9;
+        }
+		@font-face {
+	src: url(https://pan.miaoi.top/f/1b1CJ/Minecraft_AE.ttf);
+	font-family: "Minecraft_AE";
+}
+    </style>
+</head>
+<body>
+    <div class="container">
+		<h1><svg xmlns="http://www.w3.org/2000/svg" width="80" height="80" fill="currentColor" class="bi bi-check-circle-fill" viewBox="0 0 16 16">
+  <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zm-3.97-3.03a.75.75 0 0 0-1.08.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-.01-1.05z"/>
+</svg></h1>
+        <h1>Hello<br>world</h1>
+        <p>工程创建成功！</p>
+    </div>
+</body>
+</html>
